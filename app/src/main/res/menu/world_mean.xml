@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.android.peter.menudemo.MenuDemoActivity">
+        <item
+            android:id="@+id/add"
+            android:orderInCategory="100"
+            android:title="添加"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/help"
+            android:orderInCategory="100"
+            android:title="帮助"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/sratch"
+            android:orderInCategory="100"
+            android:title="有道查询"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/exit"
+            android:orderInCategory="100"
+            android:title="退出"
+            app:showAsAction="never" />
+    </menu>

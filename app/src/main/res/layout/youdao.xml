@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/src_word"
+            android:layout_width="304dp"
+            android:layout_height="60dp"
+            android:hint="请输入查询单词"/>
+
+        <Button
+            android:id="@+id/bt_src"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="查询" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/y_values"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
